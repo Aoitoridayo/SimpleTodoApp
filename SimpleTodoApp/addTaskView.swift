@@ -3,7 +3,7 @@ import SwiftUI
 
 struct addTaskView: View {
     var body: some View {
-        Text("Hello world")
+        Text("実装中")
     }
 }
 
