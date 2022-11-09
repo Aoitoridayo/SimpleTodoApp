@@ -2,7 +2,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var taskKinds = 0
+    @State var taskTypes = 0
     @State var dayTasks = [
         TaskData(taskText: "料理", check: true),
         TaskData(taskText: "散歩", check: true),
@@ -21,19 +21,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             NavigationStack {
-                Picker(selection: $taskKinds, label: Text("タスクの種類")) {
-                    Text("Day")
-                        .tag(0)
-                    Text("Week")
-                        .tag(1)
-                    Text("Month")
-                        .tag(2)
-                }
-                .frame(width: 300)
-                .pickerStyle(.segmented)
+                PickerView(taskType: $taskTypes)
                 List {
                     Section(header: Text("Tasks")){
-                        switch taskKinds {
+                        switch taskTypes {
                         case 0:
                             ForEach(dayTasks) { task in
                                 Text(task.taskText)

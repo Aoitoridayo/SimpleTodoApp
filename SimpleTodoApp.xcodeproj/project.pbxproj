@@ -13,6 +13,7 @@
 		0B08C2B0290EAC3200729503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B08C2AF290EAC3200729503 /* Preview Assets.xcassets */; };
 		0B08C2B7290EAEEB00729503 /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B08C2B6290EAEEB00729503 /* TaskData.swift */; };
 		0B08C2B9290ED8CD00729503 /* addTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B08C2B8290ED8CD00729503 /* addTaskView.swift */; };
+		0B860EC8291B9EA5005EE380 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B860EC7291B9EA5005EE380 /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0B08C2AF290EAC3200729503 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B08C2B6290EAEEB00729503 /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
 		0B08C2B8290ED8CD00729503 /* addTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTaskView.swift; sourceTree = "<group>"; };
+		0B860EC7291B9EA5005EE380 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				0B08C2A8290EAC2F00729503 /* SimpleTodoAppApp.swift */,
 				0B08C2AA290EAC2F00729503 /* ContentView.swift */,
+				0B860EC7291B9EA5005EE380 /* PickerView.swift */,
 				0B08C2B8290ED8CD00729503 /* addTaskView.swift */,
 				0B08C2B6290EAEEB00729503 /* TaskData.swift */,
 				0B08C2AC290EAC3200729503 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				0B08C2AB290EAC2F00729503 /* ContentView.swift in Sources */,
 				0B08C2A9290EAC2F00729503 /* SimpleTodoAppApp.swift in Sources */,
 				0B08C2B7290EAEEB00729503 /* TaskData.swift in Sources */,
+				0B860EC8291B9EA5005EE380 /* PickerView.swift in Sources */,
 				0B08C2B9290ED8CD00729503 /* addTaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
